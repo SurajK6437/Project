@@ -1,0 +1,71 @@
+.box{
+    height: 650px;
+    width: 500px;
+    margin: 2% 2% 2% 30% ;
+    border: 2px solid black;
+    justify-content: center;
+    display: flex;
+    border-radius: 20px;
+}
+
+center{
+    margin-top: 2%;
+    font-size: 30px;
+}
+
+header{
+    display: flex;
+    position: fixed;
+    
+    top: 100px;
+    align-items: center;
+    
+}
+header li{
+    display: inline;
+}
+header li a{
+    margin-right:20px;
+    color: rgb(15, 15, 15);
+    font-family: 'Times New Roman', Times, serif, italic;
+}
+li button{
+    height: 50px;
+    width: 200px;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color:royalblue ;
+    font-size: 20px ;
+    color: white;
+}
+
+
+li button:hover{
+    color:darkblue;
+    background-color: rgba(229, 233, 214, 0.641);
+    border-radius:30px;
+
+}
+ input{
+    height: 50px;
+    width: 450px;
+    font-size: 20px;
+    border-radius: 15px;
+}
+header nav a{
+    font-size: 20px;
+}
+button{
+    height: 50px;
+    width: 450px;
+    font-size: 20px;
+    border-radius:15px ;
+    background-color: royalblue;
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+    color:darkblue;
+    background-color: rgba(229, 233, 214, 0.641);
+    border-radius:15px;
+}

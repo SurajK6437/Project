@@ -1,0 +1,42 @@
+body{
+    background-image: url(login.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.box{
+    height: 500px;
+    width: 500px;
+    background-color:white;
+    margin: 100px 0px 0px 50px;
+    border-radius: 20px 20px 20px 20px;
+    justify-content: center;
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+}
+input{
+    font-size: 25px; 
+    border: 0px;
+}
+.button{
+    height: 40px;
+    width: 300px;
+    font-size: 25px;
+    margin: 0px 0px 0px 30px;
+    border-radius: 50px 50px 50px 50px;
+    background-color:rgba(16, 59, 233, 0.753);
+    border: 1px ridge;
+    color: white;
+}
+.button1{
+    background-color: white ;
+    color: blue;
+    border: 0px;
+}
+.lable1{
+    color: aliceblue;
+    margin: 20px 0px 0px 50px;
+}
+#img{
+    margin: -30px 50px 0px 90px;
+}
